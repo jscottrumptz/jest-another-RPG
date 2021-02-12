@@ -1,0 +1,22 @@
+{
+  "name": "jest-another-rpg",
+  "version": "1.0.0",
+  "description": "Week 10 Boot Camp Module",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscottrumptz/jest-another-RPG.git"
+  },
+  "author": "J Scott Rumptz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscottrumptz/jest-another-RPG/issues"
+  },
+  "homepage": "https://github.com/jscottrumptz/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
