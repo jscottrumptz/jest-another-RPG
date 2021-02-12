@@ -18,6 +18,12 @@ test('creates a player object', () => {
     );
 });
 
+test("gets player's health value", () => {
+    const player = new Player('Dave');
+  
+    expect(player.getHealth()).toEqual(expect.stringContaining(player.health.toString()));
+});
+
 test("get's player's stats as an object", () => {
     const player = new Player('dave');
 
